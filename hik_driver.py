@@ -18,8 +18,9 @@ if not wrapper_py:
         f"  {MVS_ROOT}\n"
         "Your extracted/installed MVS tree doesn't contain the Python wrapper where expected."
     )
+print(wrapper_py)
 
-wrapper_dir = os.path.dirname(wrapper_py)
+'''wrapper_dir = os.path.dirname(wrapper_py)
 sys.path.insert(0, wrapper_dir)
 print("Using Python wrapper from:", wrapper_dir)
 
@@ -185,4 +186,4 @@ def hik_close(info_lst):
         del data_buf
         sys.exit()
 
-    del data_buf
+    del data_buf'''
